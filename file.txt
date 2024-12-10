@@ -1,0 +1,27 @@
+git init   -  gitni ishga tushuradi  (1 marta ishlatiladi)
+git status   -   joriy holatni ko'rish
+git add   - loyihadagi yangi fayllar , o'zgarishlar va o'chirilishlarni xotiraga olish uchun navbatga qo'yadi
+--command '' lar - flag deyiladi
+-A/--a   - barcha o'zgarish, o'chirilish va qo'shilish
+git add .   - barcha o'zgarganlarni qabul qilish
+git commit -m    - xotiraga olingan o'zgarishlarni saqlab qoyadi
+-m   - xabar qoldirish uchun flag
+git log / git log --pretty   - commit'lar ro'yxatini ko'rish
+git checkout --<file>   - faylda bo'lgan o'zgarishlarni bekor qiladi
+git checkout --.   - barcha fayllardagi o'zgarishlarni bekor qiladi
+git checkout <versioncode> - versiyaga o'tish
+git checkout master - kodning oxirgi versiyasiga o'tish
+git reset   - o'zgarishni ro'yxatdan  chiqarish
+git restore <file_name>    - fayldagi saqlannmagan o'zgarishlarni o'chiradi
+
+
+Branch/Merge   - Shoxlar
+git branch  - mavjud hozirgi brench nomi
+git brench myBrench - yangi brench yaratish
+git checkout branchNomi   - branchga o'tish
+git merge branchNomi  - berilgan brenchni mavjud brenchga yuklab olish
+
+mkdir <foldername> - yangi paka yaratish
+cd  (change directort) -  directoriyani o'zgartirish
+touch <filename> - fayl yaratish
+rm <filename> - faylni o'chirish
