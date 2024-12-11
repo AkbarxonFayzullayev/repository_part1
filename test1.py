@@ -3,4 +3,4 @@ class Student:
         self.name = name
         self.phone = phone
     def info(self):
-        pass
+        print(f"Student ismi: {self.name}, Telefon raqami: {self.phone}")
